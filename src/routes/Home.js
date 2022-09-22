@@ -8,21 +8,24 @@ import Heading from '../components/Heading'
 import AboutMe from "../components/About/AboutMe"
 import { useNavigate } from 'react-router-dom'
 function Home() {
-     const navigate= useNavigate();
- const handle=()=>{
-    navigate("/project")
- }
+    const navigate = useNavigate();
+    const handle = () => {
+        navigate("/project")
+    }
     return (
 
         <div>
             <Navbar />
-            <HeroImage image={ Img } heading={ `HI, I'M Frontend DEVELOPER` } para={ 'Shilpi Gupta' } />
-            <Heading message={'Latest Works'}/>
-            <Card  length={4}/>
-            <Heading  message={' About Me'} />
-            <span  onClick ={handle}style={{ color:'#ffff', position:'absolute',bottom:'-128%',
-    right: '64%', fontSize:'1.6rem', cursor:'pointer'} }>...more</span>
-             <AboutMe  style={{   backgroundColor:  '#fdfdfd'}}/>
+            <HeroImage image={Img} heading={`HI, I'M Frontend DEVELOPER`} para={'Shilpi Gupta'} />
+            <Heading message={'Latest Works'} />
+            <Card length={4} />
+
+            <span onClick={handle} style={{
+                color: '#ffff', position: 'absolute', bottom: '-108%',
+                right: '65%', fontSize: '1.6rem', cursor: 'pointer'
+            }}>...more</span>
+            <Heading message={' About Me'} />
+            <AboutMe style={{ backgroundColor: '#fdfdfd' }} />
             <Footer />
         </div>
 
