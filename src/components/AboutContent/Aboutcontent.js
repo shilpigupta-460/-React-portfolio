@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './aboutContent.css'
+import './AboutContent.css'
 import img1 from "../../assets/react-logo.png";
 import img2 from "../../assets/js-logo.png";
 import img3 from "../../assets/html.png";
