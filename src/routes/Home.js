@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import HeroImage from "../components/HeroImage/HeroImage";
 import Footer from "../components/Footer/Footer";
 import Card from "../components/Cards/Card";
-import Img from "../../src/assets/photo.jpg";
+import Img from "../assets/photo.jpg";
 import Heading from "../components/Heading";
 import AboutMe from "../components/About/AboutMe";
 import { useNavigate } from "react-router-dom";
