@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 // import HeroImgae from "../../assets/photo.jpg"
-import { Link } from 'react-router-dom'
-import './HeroImage.css'
+import { Link } from "react-router-dom";
+import "./HeroImage.css";
 function HeroImage({ ...props }) {
     return (
         <div className="hero">
@@ -18,7 +18,7 @@ function HeroImage({ ...props }) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default HeroImage
+export default HeroImage;

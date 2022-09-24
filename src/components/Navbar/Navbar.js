@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
-import './Navbar.css';
-import { Link } from 'react-router-dom'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import Img from '../../assets/logo2.png'
+import React, { useState } from "react";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import Img from "../../assets/logo2.png";
 function Navbar() {
   const [click, setClick] = useState(false);
   const [color, setColor] = useState(false);
   const handleBar = () => {
-    setClick(!click)
+    setClick(!click);
 
-  }
+  };
   const handleColor = () => {
     if (window.scrollY >= 100)
-      setColor(true)
+      setColor(true);
     else
-      setColor(false)
-  }
-  window.addEventListener('scroll', handleColor);
+      setColor(false);
+  };
+  window.addEventListener("scroll", handleColor);
 
   return (
     <div className={ color ? "contanier contanier-bg" : "contanier " }>
@@ -43,7 +43,7 @@ function Navbar() {
         { click ? <FaTimes /> : <FaBars /> }
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

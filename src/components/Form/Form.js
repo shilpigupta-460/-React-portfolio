@@ -1,24 +1,24 @@
-import React, {useRef} from 'react'
-import './Form.css'
-import emailjs from '@emailjs/browser';
+import React, {useRef} from "react";
+import "./Form.css";
+import emailjs from "@emailjs/browser";
 
 
 
 // npm i @emailjs/browser
 function Form() {
   
-    const form =useRef(null)
+    const form =useRef(null);
     const sendEmail = (e) => {
        
         e.preventDefault();
-        {form.current.value == " "? alert(' please fill the data'):  
+        {form.current.value == " "? alert(" please fill the data"):  
     
-        emailjs.sendForm('service_7v0x50k', 'template_6pm4dts', form.current, 'S2DBsEXo-3IQs1qw8')
+        emailjs.sendForm("service_7v0x50k", "template_6pm4dts", form.current, "S2DBsEXo-3IQs1qw8")
           .then((result) => {
               
                console.log(result.text);
               
-               alert('Messsage sent')
+               alert("Messsage sent");
              
             form.current.reset();
               
@@ -27,8 +27,8 @@ function Form() {
               console.log(error.text);
           });
       }
-     ;};
-     console.log(form.current)
+     };
+     console.log(form.current);
     
     return (
         <div className="form" >
@@ -41,13 +41,13 @@ function Form() {
                 <label> Subject</label>
                 <input type="text"  name="subject"></input>
                 <label> Message</label>
-                <textarea row="4" placeholder=" Typr your Message Here"  name="message" />
+                <textarea rows="4" placeholder=" Typr your Message Here"  name="message" />
                 {/* <a class="email-link" href="mailto:shilpi.gupta460@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a> */}
                 <button className="btn">Send</button>
             </form>
 
         </div>
-    )
+    );
 }
 
-export default Form
+export default Form;

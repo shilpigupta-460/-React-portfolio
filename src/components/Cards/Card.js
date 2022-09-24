@@ -5,12 +5,10 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Img from "../../assets/photo1.jpg";
-import p1 from "../../assets/photo3.jpg";
 import v1 from "../../assets/videos/Shopping1.mp4";
 import v4 from "../../assets/videos/chat.mp4";
 import v3 from "../../assets/videos/Blog.mp4";
-import Style from "./Card.css";
+
 import Link from "@mui/material/Link";
 
 // import { makeStyles } from '@mui/styles';

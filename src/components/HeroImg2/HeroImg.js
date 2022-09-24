@@ -1,5 +1,5 @@
-import React from 'react'
-import './HeroImg.css'
+import React from "react";
+import "./HeroImg.css";
 //import image from "../../assets/photo-1593720213428-28a5b9e94613.avif"
 function HeroImg({ ...props }) {
     return (
@@ -11,7 +11,7 @@ function HeroImg({ ...props }) {
                 <p> { props.text }</p>
             </div>
         </div>
-    )
+    );
 }
 
-export default HeroImg
+export default HeroImg;
