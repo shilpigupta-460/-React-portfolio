@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function Heading({message}) {
+function Heading(props) {
+  const { message } = props;
   return (
     < div className="heading">
-     <h1 style={ { margin: '3rem 1rem' } }> {message}</h1>
+     <h1 style={ { margin: "3rem 1rem" } }> {message}</h1>
     </div>
-  )
+  );
 }
 
-export default Heading
+export default Heading;

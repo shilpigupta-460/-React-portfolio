@@ -1,8 +1,9 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es2021": true
+      
     },
+    "root": true,
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
@@ -10,7 +11,7 @@ module.exports = {
     "overrides": [
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": "2015",
         "sourceType": "module"
     },
     "plugins": [
@@ -18,6 +19,7 @@ module.exports = {
     ],
     "rules": {
         "semi": ["error", "always"],
-        "quotes": ["error", "double"]
+        "quotes": ["error", "double"],
+        "react/prop-types": "off"
     }
 }

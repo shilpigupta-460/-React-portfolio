@@ -1,9 +1,9 @@
-import React from 'react'
-import Navbar from "../components/Navbar/Navbar"
-import HeroImg from "../components/HeroImg2/HeroImg"
-import Footer from "../components/Footer/Footer"
-import Img from "../assets/photoa.avif"
-import AboutContent from "../components/AboutContent/Aboutcontent"
+import React from "react";
+import Navbar from "../components/Navbar/Navbar";
+import HeroImg from "../components/HeroImg2/HeroImg";
+//import Footer from "../components/Footer/Footer";
+import Img from "../assets/photoa.avif";
+import AboutContent from "../components/AboutContent/Aboutcontent";
 function About() {
     return (
         <div>
@@ -15,7 +15,7 @@ function About() {
                 {/* <Footer /> */}
             </div>
         </div>
-    )
+    );
 }
 
-export default About
+export default About;
