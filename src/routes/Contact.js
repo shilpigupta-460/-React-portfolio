@@ -4,7 +4,7 @@ import HeroImage from "../../../../React_Portfolio/portfolio/src/components/Hero
 import Footer from "../components/Footer/Footer";
 import Img from "../assets/photo3.jpg";
 import Form from "../components/Form/Form";
- import Heading from "../../../../React_Portfolio/portfolio/src/components/Heading";
+ import Heading from "../components/Heading";
 function Contact() {
     return (
         <div>
