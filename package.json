@@ -47,6 +47,6 @@
   "devDependencies": {
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-react-hooks": "^5.0.0-next-c28f313e6-20220908"
+    "eslint-plugin-react-hooks": "^5.0.0-next-c89a83695-20220923"
   }
 }
