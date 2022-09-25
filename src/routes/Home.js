@@ -21,7 +21,7 @@ function Home() {
             <Card length={4} />
 
             <span onClick={handle} style={{
-                color: "#ffff", position: "absolute", bottom: "-108%",
+                color: "#ffff", position: "absolute", bottom: "-158%",
                 right: "65%", fontSize: "1.6rem", cursor: "pointer"
             }}>...more</span>
             <Heading message={" About Me"} />
